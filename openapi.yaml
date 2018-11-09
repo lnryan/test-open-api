@@ -13,5 +13,6 @@ servers:
 paths:
 - $ref: 'paths/index.yaml'
 
-definitions:
-- $ref: 'components/index.yaml'
+components:
+  schemas:
+  - $ref: '/schemas/index.yaml'
