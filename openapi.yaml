@@ -11,7 +11,7 @@ servers:
   description: "Versioned endpoint"
   
 paths:
-- $ref: 'paths/index.yaml'
+- $ref: '/paths/index.yaml'
 
 components:
   schemas:
