@@ -15,4 +15,4 @@ paths:
 
 components:
   schemas:
-  - $ref: '/schemas/index.yaml'
+  - $ref: '/components/schemas'
