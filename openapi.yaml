@@ -1,0 +1,17 @@
+openapi: "3.0.0"
+info:
+  title: "Test of specifications broken into multiple files"
+  description: "This tests how open api works"
+  version: "0.0.1"
+
+servers:
+- url: http://example.com/allthethings/latest
+  description: "Stable endpoint to latest version"
+- url: http://example.com/allthethings/beta
+  description: "Versioned endpoint"
+  
+paths:
+- $ref: 'paths/index.yaml'
+
+definitions:
+- $ref: 'components/index.yaml'
